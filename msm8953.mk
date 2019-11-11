@@ -139,10 +139,6 @@ PRODUCT_PACKAGES += \
     libgenlock \
     libtinyxml
 
-# Doze mode
-PRODUCT_PACKAGES += \
-    XiaomiDoze
-
 # DRM
 PRODUCT_PACKAGES += \
     android.hardware.drm@1.0-impl \
@@ -259,9 +255,9 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw
 
-# Xiaomi Parts
+# Doze
 PRODUCT_PACKAGES += \
-    XiaomiParts
+   XiaomiDoze
 
 # Power
 PRODUCT_PACKAGES += \
